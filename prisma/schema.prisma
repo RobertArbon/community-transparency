@@ -7,8 +7,30 @@ datasource db {
   provider = "postgresql"
 }
 
-model Todo {
-  id        Int      @id @default(autoincrement())
-  title     String
-  createdAt DateTime @default(now())
+model Meeting {
+  id String @id @default(cuid())
+  host String?
+  policyLevel Int
+  date DateTime
+  organisation String?
+  purpose String?
+  department String?
+  othersAttending String?
+  source String?
+  registrantAddInfo String? 
+  portalSource Source
+  externalRecordId Int
+  tags  Tag[]
+}
+
+
+model Tag {
+  id Int @id @default(autoincrement())
+  name String
+  meetings Meeting[]
+}
+
+enum Source { 
+  UK_Government
+  Scottish_Lobbying_Register
 }
