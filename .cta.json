@@ -1,0 +1,33 @@
+{
+  "projectName": "community-transparency",
+  "mode": "file-router",
+  "typescript": true,
+  "packageManager": "npm",
+  "includeExamples": false,
+  "tailwind": true,
+  "addOnOptions": {
+    "prisma": {
+      "database": "postgres"
+    }
+  },
+  "envVarValues": {
+    "VITE_CLERK_PUBLISHABLE_KEY": "lsdkjfhalkjsdfh"
+  },
+  "git": true,
+  "install": true,
+  "routerOnly": false,
+  "version": 1,
+  "framework": "react",
+  "chosenAddOns": [
+    "eslint",
+    "netlify",
+    "clerk",
+    "prisma",
+    "form",
+    "oRPC",
+    "shadcn",
+    "t3env",
+    "table",
+    "tanstack-query"
+  ]
+}
