@@ -19,3 +19,4 @@ src/generated/*
 ~$iw_uk.xlsx
 iw_uk.xlsx
 prisma/data/iw_uk.csv
+prisma/data/iw_uk.json
