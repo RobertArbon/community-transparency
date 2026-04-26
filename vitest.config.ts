@@ -3,7 +3,8 @@ import { defineConfig } from 'vitest/config'
 import viteReact from '@vitejs/plugin-react'
 
 export default defineConfig({
-  plugins: [viteReact()],
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  plugins: [viteReact() as any],
   resolve: {
     alias: {
       '#': path.resolve(__dirname, 'src'),
