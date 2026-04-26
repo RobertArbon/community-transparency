@@ -21,12 +21,11 @@
     "db:seed": "dotenv -e .env.local -- prisma db seed"
   },
   "dependencies": {
-    "@clerk/clerk-react": "^5.61.3",
     "@faker-js/faker": "^10.3.0",
-    "@orpc/client": "^1.13.6",
+    "@orpc/client": "^1.14.0",
     "@orpc/json-schema": "^1.13.6",
     "@orpc/openapi": "^1.13.6",
-    "@orpc/server": "^1.13.6",
+    "@orpc/server": "^1.14.0",
     "@orpc/tanstack-query": "^1.13.6",
     "@orpc/zod": "^1.13.6",
     "@prisma/adapter-pg": "^7.4.2",
