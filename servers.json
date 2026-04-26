@@ -1,0 +1,17 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Local PostgreSQL",
+      "Group": "Servers",
+      "Host": "postgresql_db",
+      "Port": 5432,
+      "MaintenanceDB": "postgres",
+      "Username": "postgres",
+      "SSLMode": "disable",
+      "ConnectionParameters": {
+        "connect_timeout": "0"
+      },
+      "PassFile": "/pgpass"
+    }
+  }
+}
