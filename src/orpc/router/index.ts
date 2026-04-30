@@ -1,6 +1,7 @@
-import { addTodo, listTodos } from './todos'
+import { getNMeetings } from './meetings'
 
 export default {
-  listTodos,
-  addTodo,
+  meetings: {
+    getNMeetings
+  }
 }
